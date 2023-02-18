@@ -16,6 +16,7 @@ public class MainManager : MonoBehaviour
     
     private bool m_Started = false;
     private int m_Points;
+    //private string name="Sara";
     
     private bool m_GameOver = false;
 
@@ -67,7 +68,7 @@ public class MainManager : MonoBehaviour
     {
         m_Points += point;
         ScoreText.text = $"Score : {m_Points}";
-        BestScore.text = $"Best Score : Sara : {m_Points}";
+        BestScore.text = $"Sarsor Score : {m_Points}";
 
     }
 
